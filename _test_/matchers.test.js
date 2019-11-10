@@ -5,9 +5,8 @@
      }
      const user2 = {
         name : "Marco",
-        lastName : "Macas"
+        lastName : "Macias"
      }
-
      test("igualdad de elementos", () => {
          expect(user).toEqual(user2)
      })

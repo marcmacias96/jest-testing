@@ -4,14 +4,22 @@
   "description": "Curso de pruebas para javascirpt",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "jest:watch": "jest --watch"
   },
   "author": "Marco Macias",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "7.7.2",
+    "@babel/plugin-transform-runtime": "^7.6.2",
     "@babel/preset-env": "7.7.1",
     "babel-jest": "^24.9.0",
+    "babel-polyfill": "^6.26.0",
     "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.7.2",
+    "axios": "^0.19.0"
   }
 }
